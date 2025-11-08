@@ -1,6 +1,6 @@
 # Ghost Toolkit 🛠️
 
-A lightweight Windows utility for basic system information — built as my first GitHub project to learn development, version control, and software releases.
+A lightweight Windows utility for system information & maintenance — built as my first GitHub project to learn development, version control, packaging, and software releases.
 
 ---
 
@@ -10,7 +10,8 @@ https://github.com/Sudo-Ghost77/Ghost-toolkit/releases/latest
 
 Run the file — no installation needed.
 
-> If Windows SmartScreen warns you, click **More info → Run anyway** (because this EXE is unsigned).
+> If Windows SmartScreen warns you, click **More info → Run anyway**  
+> (this EXE is unsigned since it’s a personal project).
 
 ---
 
@@ -18,13 +19,26 @@ Run the file — no installation needed.
 
 ✅ Display Windows version  
 ✅ Show total & used RAM  
-✅ Single portable `.exe` file  
+✅ Clean temporary files  
+✅ View top resource-using processes  
+✅ Portable `.exe` (no install)
 
-Future upgrades coming soon:
+### 🧠 Future Upgrades
 - RAM cleaner
-- Temp file cleaner
-- CPU usage & top processes
-- GUI version
+- Startup program manager
+- Task manager killer
+- System health & security checks
+- Full GUI release
+
+---
+
+## 📷 Screenshots
+
+### Main Interface
+![Ghost Toolkit GUI](assets/screenshot_main.png)
+
+### Cleanup Example
+![Ghost Toolkit Cleanup](assets/screenshot_cleanup.png)
 
 ---
 
@@ -33,6 +47,7 @@ Future upgrades coming soon:
 ```bash
 pip install -r requirements.txt
 python ghost_pc_utility_v1.py
+
 
 ## ✨ Credits
 
